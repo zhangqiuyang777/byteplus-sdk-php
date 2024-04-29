@@ -1,0 +1,25 @@
+{
+  "name": "byteplus_sdk/byteplus-sdk-php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bytedance"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "guzzlehttp/guzzle": "^7.8",
+    "ext-json": "*",
+    "google/protobuf": "*",
+    "google/gax": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Byteplus\\": "src/",
+      "Test\\": "tests/"
+    }
+  },
+  "description": ""
+}
